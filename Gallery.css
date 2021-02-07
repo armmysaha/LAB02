@@ -1,0 +1,14 @@
+.row{
+    margin: 20px 50px;
+}
+.row img{
+    width: 250px;
+    padding: 1px;
+    margin: 20px 50px 20px 30px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.row img:hover{
+    filter: grayscale(0);
+    transform: scale(2.1);
+}
